@@ -11,17 +11,7 @@ type ExtensionPreferences = {
   /** Display Mode - Choose how the island is anchored */
   "islandStyle": "auto" | "notch" | "pill",
   /** Hover to Expand - Expand the island when the cursor hovers over the notch */
-  "hoverToExpand": boolean,
-  /** Show Media in Menu - Show the Now Playing widget in the island menu */
-  "showMediaWidget": boolean,
-  /** Show Volume Mixer in Menu - Show the Volume Mixer widget in the island menu */
-  "showMixerWidget": boolean,
-  /** Show System in Menu - Show the System Stats widget in the island menu */
-  "showSystemWidget": boolean,
-  /** Show Timer in Menu - Show the Focus Timer widget in the island menu */
-  "showTimerWidget": boolean,
-  /** Show Calendar in Menu - Show the Calendar widget in the island menu */
-  "showCalendarWidget": boolean
+  "hoverToExpand": boolean
 }
 
 /** Preferences accessible in all the extension's commands */
